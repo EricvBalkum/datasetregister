@@ -69,3 +69,24 @@ name.nl = "SPARQL-endpoint"
 description.nl = "SPARQL endpoint"
 content_url = "https://data.muziekschatten.nl/sparql"
 usage_info = "https://www.w3.org/TR/sparql11-protocol/"
+
+
+[[datasets]]
+slug = "pknet-music-thesaurus"
+id = "https://data.podiumkunst.net/dataset/pknet-music-thesaurus"
+name.en = "Music thesaurus"
+name.nl = "Muziekthesaurus"
+description.en = "Linked Open Data Terminology resource for the unambiguous identification of musical forms, styles and genres."
+description.nl = "Linked Open Data Terminologiebron ten behoeve van eenduidige identificatie van vormen, stijlen en genres binnen het domein van de muziek."
+about = "https://www.wikidata.org/wiki/Q862597"
+date_created = "2026-11-01"
+date_published = "2026-11-01"
+date_modified = "2026-11-01"
+keywords.nl = ["muzikale vormen", "muziekstijlen", "muziekgenres"]
+keywords.en = ["musical forms", "musical genres", "musical styles"]
+
+[[datasets.distributions]]
+name.nl = "SPARQL-endpoint"
+description.nl = "SPARQL endpoint"
+content_url = "https://lod.podiumkunst.net/som"
+usage_info = "onbekend"
