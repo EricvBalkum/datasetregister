@@ -41,10 +41,10 @@ description.nl = "Linked Open dataset over de bladmuziek van de Nederlandse publ
 date_created = "2017-01-01"
 date_published = "2017-12-31"
 date_modified = "2026-03-12"
-temporal_coverage = "1500/.."
+temporal_coverage = "1900/.."
 url = "https://data.muziekschatten.nl"
 keywords.nl = ["muziek", "linked data", "bladmuziek", "componisten", "composities", "arrangementen", "Nederland", "publieke omroep", "radio", "televisie", "omroepensembles"]
-keywords.en = ["sheet music", "composers"]
+keywords.en = ["music", "linked data", "sheet music", "composers", "compositions", "arrangements", "The Netherlands", "public broadcasting corporations", "radio", "television", "music ensembles" ]
 
 [[datasets.distributions]]
 name = "SPARQL-endpoint"
@@ -66,8 +66,32 @@ date_published = "2017-12-31"
 date_modified = "2026-03-12"
 temporal_coverage = "1500/.."
 url = "https://data.muziekschatten.nl"
-keywords.nl = ["muziek", "arrangeurs", "musici", "componisten", "muzikanten"]
-keywords.en = ["music", "composers", "arrangers", "musicians"]
+keywords.nl = ["muziek", "arrangeurs", "musici", "componisten", "muzikanten", "tekstdichters", "liedjesschrijvers", "vocalisten"]
+keywords.en = ["music", "composers", "arrangers", "musicians", "lyricists", "songwriters", "vocalists]
+in_language = ["nl"]
+
+[[datasets.distributions]]
+name = "SPARQL-endpoint"
+description = "SPARQL endpoint"
+content_url = "https://data.muziekschatten.nl/sparql"
+usage_info = "https://www.w3.org/TR/sparql11-protocol/"
+main_entity_of_page = "https://www.muziekschatten.nl/page/344/over"
+
+[[datasets]]
+slug = "som-broadcasting-ensembles"
+id = "https://data.podiumkunst.net/dataset/som-broadcasting-ensembles"
+name.en = "Broadcasting ensembles"
+name.nl = "Omroepensembles"
+description.en = "Linked Open Data Terminology resource for the unambiguous identification of persons in the music domain. Contains richly metadated personal entities that have a relationship with the sheet music collection of the Stichting Omroep Muziek. This includes bigbands, light orchestras, chamber ensembles, combo's, vocal ensembles all having performed on Dutch radio and television (tv)."
+description.nl = "Linked Open Data Terminologiebron ten behoeve van eenduidige identificatie van en informatievoorziening over omroepensembles. Bevat rijk gemetadateerde ensemble-entiteiten die een relatie hebben met de bladmuziekcollectie van de Stichting Omroep Muziek. Denk hierbij aan met name bigbands, amusementsorkesten, combo's, kamermuziekensembles, mandoline-orkesten, accordeonensembles, vocale ensembles die hebben opgetreden voor radio en televisie (tv)."
+date_created = "2017-01-01"
+date_published = "2017-12-31"
+date_modified = "2026-11-16"
+temporal_coverage = "1920/.."
+url = "https://data.muziekschatten.nl"
+keywords.nl = ["muziek", "bandleiders", "orkestleiders", "dirigenten", "omroepensembles"]
+keywords.en = ["music", "band leaders", "broadcasting ensembles", "conductors", "lyricists", "songwriters"]
+in_language = ["nl"]
 
 [[datasets.distributions]]
 name = "SPARQL-endpoint"
