@@ -63,6 +63,7 @@ date_published = "2022-12-31"
 date_modified = "2026-03-12"
 keywords.nl = ["uitvoeringsmedia", "muziekwerken", "componisten", "ensemblesamenstellingen", "instrumenten", "zangstemmen"]
 keywords.en = ["media of performance", "voices", "instruments"]
+in_language = ["nl", "en", "de", "fr", "es", "it", "sk"]
 
 [[datasets.distributions]]
 name.nl = "SPARQL-endpoint"
